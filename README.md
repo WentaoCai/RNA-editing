@@ -2,7 +2,7 @@
 
 1.Convert A to G for genome fasta file
 
-perl A2G_convert_fasta.pl genome.fasta>genome.A2G.fasta
+perl A2G_convert_genome.pl genome.fasta>genome.A2G.fasta
 
 2.STAR index
 
