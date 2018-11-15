@@ -24,5 +24,6 @@ STAR --runThreadN 20 --genomeDir /work-zfs/songj88/wentao/Goat_STAR --sjdbGTFfil
 
 
 3. Convert A to G for unmapped reads 
+
 perl fastq_A2G_transform.pl SRR4895022Unmapped.out.mate1
 perl fastq_A2G_transform.pl SRR4895022Unmapped.out.mate2
