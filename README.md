@@ -28,3 +28,11 @@ STAR --runThreadN 20 --genomeDir /work-zfs/songj88/wentao/Goat_STAR --sjdbGTFfil
 perl fastq_A2G_transform.pl SRR4895022Unmapped.out.mate1
 
 perl fastq_A2G_transform.pl SRR4895022Unmapped.out.mate2
+
+
+4. mapping again
+
+
+5. Get original reads for sam
+
+perl Get_orig_read.pl a2g++.1.sam SRR4895022.unmapped.fastq >a2g++.org.sam
